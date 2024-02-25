@@ -13,7 +13,7 @@ if ($connection->connect_error) {
 }
 
 // membuat sql string ke database
-$sql = "DELETE FROM `latihan-php-01`.`table_hero_mage` WHERE id = 7";
+$sql = "DELETE FROM `latihan-php-01`.`table_hero_mage` WHERE `id` = 11";
 
 // eksekusi SQL string insert ke database
 if ($connection->query($sql) === TRUE) {
